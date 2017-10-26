@@ -12,7 +12,7 @@ name,pd_notation
 5_1,"[[2,8,3,7],[4,10,5,9],[6,2,7,1],[8,4,9,3],[10,6,1,5]]"
 5_2,"[[1,5,2,4],[3,9,4,8],[5,1,6,10],[7,3,8,2],[9,7,10,6]]"
 ```
-2. Run `./generate_reverse_pd_codes -i <path to input file>`
+2. Run `./generate_reverse_pd_codes.py -i <path to input file>`
 3. The output file is located at `pd_codes/sage.csv` and is formatted like the following:
 ```
 name, sage_pd_code
